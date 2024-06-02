@@ -3,6 +3,18 @@ body
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+#centre h1
+{
+    !important
+    color: red;
+    width: 100%;
+    margin: auto;    
+    text-align: center;
+    /* padding: 0px 0px; */
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
 h1
 {
     width: 90%;
