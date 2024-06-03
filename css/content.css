@@ -5,21 +5,25 @@ body
 }
 #centre h1
 {
-    !important
-    color: red;
+    color:
     width: 100%;
     margin: auto;    
     text-align: center;
-    /* padding: 0px 0px; */
+    padding: 30px 0px 0px;
     letter-spacing: 2px;
     font-weight: 900;
     text-transform: capitalize;
+    font-family: 'Pacifico', cursive;
+    background: rgb(246,211,4);
+background: linear-gradient(90deg, rgba(246,211,4,1) 0%, rgba(255,0,0,1) 52%, rgba(0,14,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 h1
 {
     width: 90%;
     margin: auto;
-    padding: 50px 0;
+    padding: 30px 0;
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: capitalize;
