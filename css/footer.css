@@ -27,6 +27,17 @@ body
     padding-top: 30px;
     font-size: 12px;
 }
+#webFooter a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+#containerFooter a:hover, #containerFooter p:hover
+{
+    color: lightslategray;
+    cursor: pointer;
+}
+
 #credit 
 {
     width: 100%;
