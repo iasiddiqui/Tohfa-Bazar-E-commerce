@@ -15,7 +15,7 @@ body
     text-transform: capitalize;
     font-family: 'Pacifico', cursive;
     background: rgb(246,211,4);
-background: linear-gradient(90deg, rgba(246,211,4,1) 0%, rgba(255,0,0,1) 52%, rgba(0,14,255,1) 100%);
+    background: linear-gradient(90deg, rgba(246,211,4,1) 0%, rgba(255,0,0,1) 52%, rgba(0,14,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
