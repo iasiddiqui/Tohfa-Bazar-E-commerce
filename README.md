@@ -4,7 +4,7 @@
  
  
 ### Home page
-![1](\img\home.png)
+![1](img\home.jpg)
 
 
 ### Content Description page
