@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> SLIDER | Tohfa Bazar </title>
+    <title>SLIDER | Tohfa Bazar</title>
     <!-- favicon -->
     <link rel="icon" href="img/logo.jpg" type="image/gif" sizes="16x16">
     <!-- EXTERNAL LINKS -->
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <style>
         body {
             margin: 0;
         }
@@ -53,30 +51,18 @@
             <div class="slidingImage"><img src="img/img4.png" alt="image4"></div>
         </div>
     </section>
-    <!-- <script>
+    <script>
         $(document).ready(function() {
             $('#containerSlider').slick({
                 dots: true,
                 infinite: true,
+                speed: 300,
                 slidesToShow: 1,
-                slidesToScroll: 1,
+                adaptiveHeight: true,
                 autoplay: true,
-                autoplaySpeed: 2000,
+                autoplaySpeed: 2000
             });
-        }); -->
-    <!-- </script> -->
-
-    <script>
-        $(document).ready(function() {
-          $('#containerSlider').slick({
-            // Add some basic configuration options for the slider
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true
-          });
         });
-      </script>
+    </script>
 </body>
 </html>
