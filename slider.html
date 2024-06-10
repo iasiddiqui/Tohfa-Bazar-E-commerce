@@ -53,7 +53,7 @@
             <div class="slidingImage"><img src="img/img4.png" alt="image4"></div>
         </div>
     </section>
-    <script>
+    <!-- <script>
         $(document).ready(function() {
             $('#containerSlider').slick({
                 dots: true,
@@ -63,7 +63,20 @@
                 autoplay: true,
                 autoplaySpeed: 2000,
             });
+        }); -->
+    <!-- </script> -->
+
+    <script>
+        $(document).ready(function() {
+          $('#containerSlider').slick({
+            // Add some basic configuration options for the slider
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+          });
         });
-    </script>
+      </script>
 </body>
 </html>
